@@ -1,0 +1,19 @@
+.exhibit-container{
+    display: flex;
+    justify-content: center;
+}
+
+.exhibit-content{
+    padding: 0 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-radius: 25px;
+}
+
+p{
+    font-size: 2rem;
+    color: rgb(16, 220, 16);
+}

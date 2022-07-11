@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Banner />
+    <Exhibit type="IP Address" value="192.168.1.1" />
+    <Exhibit type="Latency information" value="65ms" />
   </React.StrictMode>
 );
+
+//Sample values given in Exhibit functional component.
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
